@@ -1,6 +1,14 @@
-def operation(a,b,c):
-    print("the answer of",a,"c",b,"is",a,c,b)
-a=int(input())
-c=input()
-b=int(input())
-operation(a,b,c) 
+a=int(input()) 
+b=input()
+c=int(input())
+if(b=="+"):
+    print("=",a+c)
+elif(b=="-"):
+    print("=",a-c)
+elif(b=="*"):
+    print("=",a*c)
+elif(b=="/"):
+    print("=",a/c)
+else:
+    print("invalid operator")
+
