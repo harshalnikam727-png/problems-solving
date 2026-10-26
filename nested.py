@@ -47,7 +47,17 @@ for i in range(len(num)):
         if(num[i]==num[j]):
             has_duplicate="true"
             break
-
 print(has_duplicate)
 
- 
+# challenge 7 sum of each row in a 2d grid
+matrix=[
+    [1,2,3],
+    [4,5,6],
+    [7,8,9],
+]
+for i in matrix:
+    row_sum=0
+    for j in i:
+        row_sum+=j
+    print(row_sum)
+
